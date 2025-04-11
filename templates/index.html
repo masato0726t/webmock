@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Golang フォーム送信サンプル</title>
+</head>
+<body>
+    <h1>フォームを送信する</h1>
+
+    <form action="/login" method="POST">
+        <label for="name">名前：</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="message">メッセージ：</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <button type="submit">送信する</button>
+    </form>
+</body>
+</html>
